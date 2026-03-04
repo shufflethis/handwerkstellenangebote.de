@@ -9,11 +9,232 @@ export const Home: React.FC = () => {
 
   // Mock Data
   const jobs: JobPosting[] = [
-    { id: '1', title: 'Anlagenmechaniker SHK (m/w/d)', company: 'Meisterbetrieb Müller', location: 'Berlin', type: 'Vollzeit', postedDate: 'vor 2 Tagen', tags: ['Sanitär', 'Heizung', 'Kundendienst'] },
-    { id: '2', title: 'Elektrotechnikermeister (m/w/d)', company: 'Volt & Watt GmbH', location: 'München', type: 'Vollzeit', postedDate: 'vor 5 Stunden', tags: ['Elektro', 'Führung', 'Planung'] },
-    { id: '3', title: 'Tischler / Schreiner (m/w/d)', company: 'Holzdesign Schmidt', location: 'Hamburg', type: 'Vollzeit', postedDate: 'vor 1 Woche', tags: ['Möbelbau', 'Fenster', 'Montage'] },
-    { id: '4', title: 'Auszubildender Dachdecker (m/w/d)', company: 'Bedachungen Klein', location: 'Köln', type: 'Ausbildung', postedDate: 'vor 3 Tagen', tags: ['Dach', 'Ausbildung 2024'] },
-  ];
+  {
+    id: '1',
+    title: 'Steuerfachangestellter / Steuerfachwirt (m/w/d)',
+    company: 'Kreh - Hofmann - Widmer Wirtschaftsprüfer und SteuerberaterSofort-Bewerbung',
+    location: 'Babenhausen/Hessen',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '2',
+    title: 'Fachkraft für Lagerlogistik (m/w/d) in Vollzeit',
+    company: 'ProGlass GmbHSofort-Bewerbung',
+    location: 'Weilheim an der Teck',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '3',
+    title: 'Lagermitarbeiter / Kommissionierer als Vorarbeiter Lager / Logistik (m/w/d)',
+    company: 'CEVA Logistics GmbH',
+    location: 'Greven/Westfalen',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '4',
+    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
+    company: 'Kinder- und Jugendhilfe Weidenkorb',
+    location: 'Löhne',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '5',
+    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
+    company: 'Kinder- und Jugendhilfe Weidenkorb',
+    location: 'Espelkamp',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '6',
+    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
+    company: 'Kinder- und Jugendhilfe Weidenkorb',
+    location: 'Lübbecke',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '7',
+    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
+    company: 'Kinder- und Jugendhilfe Weidenkorb',
+    location: 'Hüllhorst',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '8',
+    title: 'Zahntechniker (m/w/d) für den Bereich CAD / CAM',
+    company: 'DELABO.GROUPSofort-Bewerbung',
+    location: 'Klein Rönnau',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '9',
+    title: 'Fachkraft Stuckateur-Handwerk m/w/d',
+    company: 'Mauer Stuckateur GmbH',
+    location: 'Wangen im Allgäu',
+    type: 'Vollzeit',
+    tags: ['Stuckateur/in'],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '10',
+    title: 'Handwerker (m/w/d)',
+    company: 'TJ-Montageservice Küchenmontage',
+    location: 'Düsseldorf',
+    type: 'Vollzeit',
+    tags: ['Tischler/in'],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '11',
+    title: 'Mitarbeiter (m/w/d) im Gartenservice und Handwerk',
+    company: 'Norden gartenservice',
+    location: 'Husum, Nordsee',
+    type: 'Vollzeit',
+    tags: ['Helfer/in - Gartenbau'],
+    postedDate: '2026-03-03'
+  },
+  {
+    id: '12',
+    title: 'MetallbauermeisterB. Prof. Metallbauer-Handwerk (m/w/d)',
+    company: 'E.D.E.L. Zeitarbeit GmbH',
+    location: 'Augsburg, Bayern',
+    type: 'Vollzeit',
+    tags: ['Metallbauermeister/in/Bachelor Professional im Metallbauer-Handwerk'],
+    postedDate: '2026-03-03'
+  },
+  {
+    id: '13',
+    title: 'Kaufmann/-frau für Büromanagement im Handwerk',
+    company: 'Werner & Sohn GmbH',
+    location: 'Fuldatal',
+    type: 'Vollzeit',
+    tags: ['Kaufmann/-frau - Büromanagement'],
+    postedDate: '2026-03-03'
+  },
+  {
+    id: '14',
+    title: 'Büroleiterin - Handwerk',
+    company: 'OSNEBAU GmbH',
+    location: 'Obertshausen',
+    type: 'Vollzeit',
+    tags: ['Büroleiter/in - Handwerk'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '15',
+    title: 'Elektroniker Automatisierungstechnik Handwerk (m/w/d)',
+    company: 'Arena Personal Management GmbH',
+    location: 'Frankfurt am Main',
+    type: 'Vollzeit',
+    tags: ['Elektroniker/in - Automatisierungstechnik (Handwerk)'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '16',
+    title: 'Metallbauer Handwerk m/w/d',
+    company: 'Arena Personal Management GmbH',
+    location: 'Heidelberg, Neckar',
+    type: 'Vollzeit',
+    tags: ['Metallbauer/in - Konstruktionstechnik'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '17',
+    title: 'Allrounder – Handwerk (m/w/d)',
+    company: 'STÜWA Konrad Stükerjürgen GmbH',
+    location: 'Rietberg',
+    type: 'Vollzeit',
+    tags: ['Helfer/in - Tiefbau'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '18',
+    title: 'Malerhelfer (m/w/d) Handwerk',
+    company: 'WEISS Personalmanagement GmbH - Darmstadt',
+    location: 'Darmstadt',
+    type: 'Vollzeit',
+    tags: ['Helfer/in - Malerei, Lackiererei'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '19',
+    title: 'Helfer Handwerk m/w/d',
+    company: 'Actief Personalmanagement GmbH',
+    location: 'Biebelried',
+    type: 'Vollzeit',
+    tags: ['Helfer/in - Feinmechanik, Werkzeugbau'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '20',
+    title: 'Mitarbeiter im Handwerk (m/w/d)',
+    company: 'AlphaConsult KG - Magdeburg',
+    location: 'Magdeburg',
+    type: 'Vollzeit',
+    tags: ['Helfer/in - Metallbau'],
+    postedDate: '2026-03-01'
+  },
+  {
+    id: '21',
+    title: 'Fachhelfer Handwerk (m/w/d)',
+    company: 'AlphaConsult KG - BS Mannheim',
+    location: 'Mannheim',
+    type: 'Vollzeit',
+    tags: ['Helfer/in - Metallbau'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '22',
+    title: 'Mitarbeiter im Handwerk (m/w/d)',
+    company: 'TimePartner Personalmanagement GmbH',
+    location: 'Trier',
+    type: 'Vollzeit',
+    tags: ['Kunsthandwerker/in'],
+    postedDate: '2026-02-26'
+  },
+  {
+    id: '23',
+    title: 'Produktionsmitarbeiter (m/w/d) Handwerk',
+    company: 'Walter-Fach-Kraft Personal GmbH',
+    location: 'Syke',
+    type: 'Vollzeit',
+    tags: ['Beton- und Stahlbetonbauer/in'],
+    postedDate: '2026-02-26'
+  },
+  {
+    id: '24',
+    title: 'Maler im Handwerk (m/w/d)',
+    company: 'ARWA Personaldienstleistungen GmbH',
+    location: 'Sarstedt',
+    type: 'Vollzeit',
+    tags: ['Maler/in und Lackierer/in - Maler/in'],
+    postedDate: '2026-02-25'
+  },
+  {
+    id: '25',
+    title: 'Quereinsteiger m/w/d im Handwerk',
+    company: 'Isolierungen Leipzig GmbH Abt. P',
+    location: 'Leipzig',
+    type: 'Vollzeit',
+    tags: ['Industrie-Isolierer/in'],
+    postedDate: '2026-02-24'
+  }
+];
 
   const trades = [
     { name: 'Sanitär, Heizung, Klima', icon: Droplets, jobs: 1450, desc: 'Von Wärmepumpen bis zum Traumbad.' },
