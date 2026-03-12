@@ -3,6 +3,7 @@ import { Search, MapPin, Wrench, Zap, Truck, Hammer, Droplets, ArrowRight, Check
 import { Button } from '../components/Button';
 import { JobCard } from '../components/JobCard';
 import { JobPosting } from '../types';
+import GermanCitiesGeo from '../components/geo/GermanCitiesGeo';
 
 export const Home: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -248,7 +249,7 @@ export const Home: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* HERO SECTION */}
-      <section className="relative bg-primary py-20 lg:py-32 overflow-hidden">
+      <section className="relative bg-primary py-12 md:py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
              <img src="https://picsum.photos/seed/handwerk1/1920/1080" alt="Handwerk Hintergrund" className="w-full h-full object-cover" />
         </div>
@@ -396,7 +397,7 @@ export const Home: React.FC = () => {
             
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-lg">
-                <span>Wie finde ich Ausbildungsplätze für 2025?</span>
+                <span>Wie finde ich Ausbildungsplätze für 2026?</span>
                 <span className="transition group-open:rotate-180">
                   <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
                 </span>
@@ -421,6 +422,9 @@ export const Home: React.FC = () => {
 
         </div>
       </section>
+
+      {/* GEO SEO - GERMAN CITIES */}
+      <GermanCitiesGeo />
 
       {/* CTA SECTION */}
       <section className="bg-secondary py-16">

@@ -1,19 +1,35 @@
 # HR-UPDATER: v1.0
 # handwerkstellenangebote.de - Handwerk Stellenangebote
 
-> handwerkstellenangebote.de ist ein spezialisiertes Jobportal fuer Handwerk-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> handwerkstellenangebote.de ist ein spezialisiertes Jobportal fuer Handwerk-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von Social Media Venture GmbH.
 
 ## Ueber uns
 - Spezialisiertes Jobportal fuer Handwerk
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Branchen: Sanitaer/Heizung/Klima, Elektrotechnik, Bau & Ausbau, KFZ, Holz & Metall, Lebensmittelhandwerk
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin
+- Telefon: +49 30 959 988 700
+- Website: https://handwerkstellenangebote.de
 
 ## Kontakt
 - Website: https://handwerkstellenangebote.de
-- Arbeitgeber-Kontakt: https://handwerkstellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://handwerkstellenangebote.de/kontakt-bewerber
+- Arbeitgeber-Kontakt: https://handwerkstellenangebote.de/#/kontakt
+- E-Mail: info@socialmediaventure.com
 
 ## Inhalte
 - Aktuelle Handwerk-Stellenangebote
 - Karriere-Ratgeber fuer Handwerk
 - Gehaltsvergleiche und Brancheninformationen
+- Jobs in allen deutschen Grossstaedten (Berlin, Hamburg, Muenchen, Koeln, Frankfurt, Stuttgart, u.v.m.)
+
+## Seiten
+- Startseite: https://handwerkstellenangebote.de/
+- Kontakt: https://handwerkstellenangebote.de/#/kontakt
+- Impressum: https://handwerkstellenangebote.de/#/impressum
+- Datenschutz: https://handwerkstellenangebote.de/#/datenschutz
+- Autor: https://handwerkstellenangebote.de/#/autor/thomas-sander
