@@ -29,7 +29,7 @@ export const GeminiAdvisor: React.FC = () => {
             }
             ]);
         } else {
-            setError("API Key fehlt. Bitte Umgebungsvariable setzen.");
+            setError("Chat-Funktion derzeit nicht verfügbar.");
         }
       } catch (err) {
         console.error("Failed to init chat", err);
@@ -100,7 +100,7 @@ export const GeminiAdvisor: React.FC = () => {
       <div className="flex-1 overflow-y-auto p-4 bg-gray-50 space-y-4">
         {error ? (
              <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative">
-                {error} - Bitte API Key in .env prüfen.
+                {error}
              </div>
         ) : (
             <>
