@@ -1,7 +1,0 @@
-{
-  "name": "handwerkstellenangebote.de",
-  "description": "Die führende Plattform für Jobs im deutschen Handwerk. Finden Sie Stellenangebote für Gesellen, Meister, Azubis und Quereinsteiger. Mit KI-gestützter Karriereberatung.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}

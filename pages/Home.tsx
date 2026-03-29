@@ -12,6 +12,60 @@ export const Home: React.FC = () => {
   const jobs: JobPosting[] = [
   {
     id: '1',
+    title: 'Elektroniker für Betriebstechnik (m/w/d)',
+    company: 'OFTEC Oberflächentechnik GmbH & Co. KG',
+    location: 'Hagenbach',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '2',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    company: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Langenhagen',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '3',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    company: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Bochum',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '4',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    company: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Ober-Olm',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '5',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    company: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Heidelberg',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '6',
+    title: 'Elektrotechniker EMSR-Technik (w/m/d)',
+    company: 'Infraserv GmbH & Co. Höchst KG',
+    location: 'Frankfurt am Main',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '7',
     title: 'Elektromonteur Netzbau (m/w/d)',
     company: 'naturenergie netze GmbH',
     location: 'Rheinfelden/Baden',
@@ -20,7 +74,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-22'
   },
   {
-    id: '2',
+    id: '8',
     title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     company: 'Serviscope AG',
     location: 'Köln',
@@ -29,7 +83,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-22'
   },
   {
-    id: '3',
+    id: '9',
     title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     company: 'Serviscope AG',
     location: 'Troisdorf',
@@ -38,7 +92,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-22'
   },
   {
-    id: '4',
+    id: '10',
     title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     company: 'Scheidt & Bachmann Signalling Systems GmbH',
     location: 'Düsseldorf',
@@ -47,7 +101,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-22'
   },
   {
-    id: '5',
+    id: '11',
     title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     company: 'Scheidt & Bachmann Signalling Systems GmbH',
     location: 'Mönchengladbach',
@@ -56,7 +110,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-22'
   },
   {
-    id: '6',
+    id: '12',
     title: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
     company: 'Gemeinde HudeSofort-Bewerbung',
     location: 'Hude (Oldb)',
@@ -65,7 +119,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-22'
   },
   {
-    id: '7',
+    id: '13',
     title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
     company: 'Medisca GmbH',
     location: 'Kabelsketal',
@@ -74,7 +128,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-15'
   },
   {
-    id: '8',
+    id: '14',
     title: 'Zahnarzt (m/w/d)',
     company: 'MeinDentist Berlin GmbH',
     location: 'Potsdam',
@@ -83,7 +137,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-15'
   },
   {
-    id: '9',
+    id: '15',
     title: 'Zahnarzt (m/w/d)',
     company: 'MeinDentist Berlin GmbH',
     location: 'Berlin',
@@ -92,7 +146,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-15'
   },
   {
-    id: '10',
+    id: '16',
     title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
     company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
     location: 'Hannover',
@@ -101,7 +155,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-15'
   },
   {
-    id: '11',
+    id: '17',
     title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
     company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
     location: 'Isernhagen',
@@ -110,7 +164,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-15'
   },
   {
-    id: '12',
+    id: '18',
     title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
     company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
     location: 'Köln',
@@ -119,7 +173,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-15'
   },
   {
-    id: '13',
+    id: '19',
     title: 'Steuerfachangestellter / Steuerfachwirt (m/w/d)',
     company: 'Kreh - Hofmann - Widmer Wirtschaftsprüfer und SteuerberaterSofort-Bewerbung',
     location: 'Babenhausen/Hessen',
@@ -128,7 +182,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-04'
   },
   {
-    id: '14',
+    id: '20',
     title: 'Fachkraft für Lagerlogistik (m/w/d) in Vollzeit',
     company: 'ProGlass GmbHSofort-Bewerbung',
     location: 'Weilheim an der Teck',
@@ -137,7 +191,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-04'
   },
   {
-    id: '15',
+    id: '21',
     title: 'Lagermitarbeiter / Kommissionierer als Vorarbeiter Lager / Logistik (m/w/d)',
     company: 'CEVA Logistics GmbH',
     location: 'Greven/Westfalen',
@@ -146,7 +200,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-04'
   },
   {
-    id: '16',
+    id: '22',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     company: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Löhne',
@@ -155,7 +209,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-04'
   },
   {
-    id: '17',
+    id: '23',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     company: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Espelkamp',
@@ -164,7 +218,7 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-04'
   },
   {
-    id: '18',
+    id: '24',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     company: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Lübbecke',
@@ -173,67 +227,13 @@ export const Home: React.FC = () => {
     postedDate: '2026-03-04'
   },
   {
-    id: '19',
+    id: '25',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     company: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Hüllhorst',
     type: 'Vollzeit',
     tags: [],
     postedDate: '2026-03-04'
-  },
-  {
-    id: '20',
-    title: 'Zahntechniker (m/w/d) für den Bereich CAD / CAM',
-    company: 'DELABO.GROUPSofort-Bewerbung',
-    location: 'Klein Rönnau',
-    type: 'Vollzeit',
-    tags: [],
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '21',
-    title: 'Fachkraft Stuckateur-Handwerk m/w/d',
-    company: 'Mauer Stuckateur GmbH',
-    location: 'Wangen im Allgäu',
-    type: 'Vollzeit',
-    tags: ['Stuckateur/in'],
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '22',
-    title: 'Handwerker (m/w/d)',
-    company: 'TJ-Montageservice Küchenmontage',
-    location: 'Düsseldorf',
-    type: 'Vollzeit',
-    tags: ['Tischler/in'],
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '23',
-    title: 'Mitarbeiter (m/w/d) im Gartenservice und Handwerk',
-    company: 'Norden gartenservice',
-    location: 'Husum, Nordsee',
-    type: 'Vollzeit',
-    tags: ['Helfer/in - Gartenbau'],
-    postedDate: '2026-03-03'
-  },
-  {
-    id: '24',
-    title: 'MetallbauermeisterB. Prof. Metallbauer-Handwerk (m/w/d)',
-    company: 'E.D.E.L. Zeitarbeit GmbH',
-    location: 'Augsburg, Bayern',
-    type: 'Vollzeit',
-    tags: ['Metallbauermeister/in/Bachelor Professional im Metallbauer-Handwerk'],
-    postedDate: '2026-03-03'
-  },
-  {
-    id: '25',
-    title: 'Kaufmann/-frau für Büromanagement im Handwerk',
-    company: 'Werner & Sohn GmbH',
-    location: 'Fuldatal',
-    type: 'Vollzeit',
-    tags: ['Kaufmann/-frau - Büromanagement'],
-    postedDate: '2026-03-03'
   }
 ];
 
